@@ -1,0 +1,68 @@
+html, body{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+}
+
+a{
+    color: #474787;
+}
+
+
+/*JUMBOTRON*/
+ .jumbotron{
+  /* margin-top: 20px; */
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron h2, .jumbotron h5{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/*A PROPOS*/
+
+.aPropos{
+    margin-top: 30px !important;
+}
+
+.col-content{
+    margin-top: 100px;
+ margin-bottom: 150px;
+}
+
+/*TECHNOS*/
+.technos h4{
+    margin-top: 130px;
+}
+
+.technos .card{
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+.icon-technos{
+    width: 80px;
+    height: 80px;
+}
+
+/*CONTACTS*/
+
+.contacts{
+    margin-top: 110px;
+    padding: 15px;
+}
+
+
+
+.links-icones{
+   
+    display: flex;
+    justify-content:  space-around;
+    flex-wrap: wrap;
+}
